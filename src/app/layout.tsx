@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Navbar from "@/components/ui/top-navbar";
 
 import Footer from "@/components/footer/footer";
 import "./globals.css";
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Navbar />
         <main className="flex flex-col w-full h-full overflow-hidden">
           {children}
         </main>

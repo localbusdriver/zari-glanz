@@ -24,8 +24,8 @@ const IndividualProduct = ({ product }: { product: StockType }) => {
       /> */}
       <div className="w-full bg-black h-64" />
       <div className="flex justify-between items-center">
-        <h3 className="text-lg">{product.title}</h3>
-        <p className="text-xl">${product.price}</p>
+        <h3 className="">{product.title}</h3>
+        <p className="">${product.price}</p>
       </div>
       <p className="text-xs">{product.colours}</p>
     </div>
