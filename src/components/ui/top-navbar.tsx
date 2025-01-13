@@ -26,6 +26,7 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center justify-center gap-3">
+        <Link href="/shop">Shop</Link>
         <p className="font-thin cursor-pointer">Bag 🛍️</p>
         <p className="font-thin cursor-pointer">Wishlist ♡</p>
         <Link href="/login" className="font-thin">
