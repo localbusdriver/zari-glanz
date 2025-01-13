@@ -3,7 +3,7 @@ import ProductPreview from "@/components/hero/product-preview/product-preview";
 
 export default function Home() {
   return (
-    <div className="space-y-4">
+    <div className="space-y-16">
       <HeroSection />
       <ProductPreview />
       <div className="w-full text-center py-16 bg-[#880000]">
